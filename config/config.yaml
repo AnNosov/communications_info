@@ -1,0 +1,28 @@
+app:
+  name: 'diplom'
+  version: '1.0.0'
+
+http_server:
+  host: 'localhost'
+  port: '8080'
+
+http_client:
+  MMS_host: '127.0.0.1'
+  MMS_port: '8383'
+  MMS_method_path: '/mms'
+  support_host: '127.0.0.1'
+  support_port: '8383'
+  support_method_path: '/support'
+  incident_host: '127.0.0.1'
+  incident_port: '8383'
+  incident_method_path: '/accendent'
+
+file_path:
+  sms_file_path: 'testutil/sms.data'
+  sms_file_separator: ';'
+  voice_file_path: 'testutil/voice.data'
+  voice_file_separator: ';'
+  email_file_path: 'testutil/email.data'
+  email_file_separator: ';'
+  billing_file_path: 'testutil/billing.data'
+  billing_file_separator: ''
